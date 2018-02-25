@@ -331,7 +331,7 @@ Note, that this applies both to built-in types and to custom types provided by d
 
 - prevents from occasional sorting of instances of different types
   ```python
-  sorted([2, '1', 3])  # invalid for Python 3, in Python 2 returns [2, 3, '1']
+  sorted([2, '1', 3])  # invalid for Python 3, in Python 2 can for instance return [2, 3, '1']
   ```
 - helps to spot some problems that arise when processing raw data
 
